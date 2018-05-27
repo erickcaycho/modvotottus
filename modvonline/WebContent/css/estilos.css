@@ -1,0 +1,297 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h2,h3 {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-size: 10px;
+}
+
+.menunav{
+	background-color: #78b800;
+	width: 100%;
+}
+
+.footer {
+	color:#ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    text-align: center;
+    background-color: #78b800;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container-footer {
+    width: auto;
+    padding: 0 15px;
+}
+.container-footer .text-muted {
+    color:#ffffff!important;
+    margin: 10px 0;
+}
+/*---------------------------------------------------------*/
+
+.cabecera{
+    padding: 20px;
+    /*
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    */
+}
+
+.cabecera > img{
+    width: 200px;
+}
+
+.cabecera-texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#g-signin-custom > span.icon {
+    background: url("../images/social-google-plus-24.png") transparent 10px 50% no-repeat;
+}
+.social-signin > span.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.social-signin {
+    width: 240px;
+    display: inline-block;
+    padding: 0 20px 0 0;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #444;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0 100px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.05),inset 0 0 0 100px rgba(0,0,0,0.02);
+    -webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0 100px rgba(0,0,0,0.02);
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+/*Small devices (landscape phones, 576px and up)
+@media (min-width: 500px) {
+    .cabecera{
+        text-align: center!important;
+    }
+}*/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 200px) {
+    .cabecera, .cabecera-texto{
+        text-align: center!important;
+    }
+
+    .cabecera > img{
+        text-align: center;
+    }
+
+    .text-center{
+        padding-top: 20%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .cabecera > img{
+        float: left;
+    }
+
+    .cabecera-texto{
+        float: right;
+    }
+
+    .text-center{
+        padding-top: 10%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+.contenido-section{
+    font-size: 13px;
+    text-align: justify;
+}
+section{
+    margin-top: 30px;
+}
+
+.div_button_enviar{
+    text-align: center;
+    margin: 30px;
+}
+
+.btn_enviar{
+    width: 200px;
+}
+
+.btn_flag{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.etiqueta-inicio{
+
+}
+
+.etiqueta{
+    padding-left: 10px;
+}
+
+.areaventa{
+    padding-bottom: 10px;
+}
+
+.pager{
+    position: inherit!important;
+    padding-bottom: 10px;
+}
+
+.etiqueta-buttom {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+button#buscarCurso {
+    width: 160px;
+    padding: 10px;
+}
+
+button#buscarArea {
+    width: 160px;
+    padding: 10px;
+}
+
+.obligatorio{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.th-menu{
+    text-align: center!important;
+    background: #d8d2d2!important;
+}
+
+.tablesorter-jui .tablesorter-header-inner{
+    padding-right: 0px!important;
+}
+
+#subsede{
+    width: 145px;
+}
+
+#area {
+    width: 315px;
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.border-subtitulo{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #f1f1f1;
+    padding: 20px;
+    border-top-color: #f1f1f1;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.texto-informativo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-control{
+    height: 30px!important;
+    font-size: 10px;
+}
+
+ul.navbar-nav li.nav-item a{
+    color: #ffffff!important;
+}
+
+ul.navbar-nav li.nav-item.active{
+    background-color: #009fe3;
+}
+
+ul.navbar-nav li.nav-item.active a{
+    color: #ffffff;
+}
+
+.bl-sesion-usuario{
+    padding-top: 5px;
+}
+.sesion-usuario{
+    font-size:10px;
+    color: #000000;
+}
+
+.radio-control{
+    padding-top: 5px!important;
+}
+
+.bl-contenido{
+    padding-top: 10px;
+}
+
+input#file2{
+    width: 260px;
+}
+
+.bl-cab{
+    width: 16%;
+}
+.bl-td{
+    text-align: center;
+    height: 45px;
+}
+
