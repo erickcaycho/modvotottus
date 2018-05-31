@@ -4,22 +4,20 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import pe.com.tottus.modvonline.dao.ProductoRepository;
 import pe.com.tottus.modvonline.model.Producto;
+import pe.com.tottus.modvonline.model.busqueda.Busqueda;
+import pe.com.tottus.modvonline.model.busqueda.BusquedaFactory;
+import pe.com.tottus.modvonline.model.busqueda.ParametrosBusqueda;
 
 @Service
 @Transactional
 public class ProductoService {
 
-	@Autowired
-	ProductoRepository productoRepository;
-
-	public List<Producto> filtrarProductosXNombre(String codigoProducto) {
-
-		return productoRepository.filtrarProductosXNombre(codigoProducto);
+	public List<Producto> buscarProductos(String tipo, ParametrosBusqueda parametros) {
+		Busqueda busqueda = BusquedaFactory.crearBusqueda(tipo);
+		return busqueda.buscarProductos(parametros);
 	}
 
 }
