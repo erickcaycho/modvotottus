@@ -84,7 +84,7 @@
                     <div class="color-78B800">#78B800</div>
                     <div class="color-7ED321">#7ED321</div>
                     <div class="color-F5F7FA">#F5F7FA</div> -->
-                        <form method="GET" action="consultar">
+                        <form method="GET" action="consultar/basica">
                             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 
                                 <div class="input-group mb-3">
